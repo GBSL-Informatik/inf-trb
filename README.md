@@ -1,4 +1,4 @@
-# Informatik by trb
+# Informatikwebseite trb
 
 ## Material Synchronisieren
 
