@@ -1,5 +1,7 @@
 # Informatikwebseite trb
 
+[![Deploy to GitHub Pages](https://github.com/GBSL-Informatik/inf-trb/actions/workflows/deploy.yml/badge.svg)](https://github.com/GBSL-Informatik/inf-trb/actions/workflows/deploy.yml)
+
 ## Material Synchronisieren
 
 - `yarn sync` synchronisiert die Materialien aus dem `docs` Ordner gemäss der `material.config.yaml` Datei in die `versioned_docs` Ordner.
