@@ -103,12 +103,12 @@ const getSiteConfig: SiteConfigProvider = () => {
                           </a>`
         },
         themeConfig: {
-            algolia: {
-                appId: 'P2ENEETR74',
-                apiKey: 'e5251468d5a81bb7569048e52f735999',
-                indexName: 'inf-gbsl',
-                searchPagePath: 'search'
-            },
+            // algolia: {
+            //   appId: '',
+            //   apiKey: '',
+            //   indexName: 'inf-trb',
+            //   searchPagePath: 'search'
+            // }
             docs: {
                 sidebar: {
                     hideable: true
