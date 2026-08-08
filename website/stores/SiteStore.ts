@@ -1,11 +1,18 @@
 import { RootStore } from '@tdev-stores/rootStore';
+import { ToolsStore } from './ToolsStore';
+import { action } from 'mobx';
 import { Message } from '@tdev/pyodide-code/pyodideJsModules';
-import { action, observable, observableRef } from 'mobx';
-import ClockStore from './ClockStore';
 
 export default class SiteStore {
-    @observableRef accessor clockStore = new ClockStore();
-    constructor(root: RootStore) {}
+    toolsStore: ToolsStore;
+
+    constructor(root: RootStore) {
+        this.toolsStore = new ToolsStore(root);
+    }
+
+    get clockStore() {
+        return this.toolsStore.clockStore;
+    }
 
     @action
     handleMessage(from: string, message: any) {
@@ -26,6 +33,11 @@ export default class SiteStore {
                                 clock.setSeconds(message.value);
                                 break;
                         }
+                        break;
+                    case 'led':
+                        const led = this.toolsStore.ledStore.useLED(message.id);
+                        const [hue, saturation, brightness] = message.value;
+                        led.setHSL(hue, saturation, brightness);
                         break;
                 }
 
