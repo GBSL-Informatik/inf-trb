@@ -14,6 +14,7 @@ import MdxComment from '@tdev-components/documents/MdxComment';
 import MdxPage from '@tdev-components/MdxPage';
 import QuillV2 from '@tdev-components/documents/QuillV2';
 import TaskState from '@tdev-components/documents/TaskState';
+import String from '@tdev-components/documents/String';
 
 export default {
     // Re-use the default mapping
