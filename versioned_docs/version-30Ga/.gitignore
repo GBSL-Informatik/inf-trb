@@ -3,7 +3,6 @@
 02-BYOD/*
 !02-BYOD/_category_.yml
 !02-BYOD/00-Szenarien.mdx
-02-BYOD/_category_.json
 03-Programmieren-1/*
 !03-Programmieren-1/_category_.yml
 !03-Programmieren-1/index.mdx
@@ -24,4 +23,3 @@
 !03-Programmieren-1/30-Repefragen/
 !03-Programmieren-1/50-Test/
 !03-Programmieren-1/51-Tests.mdx
-03-Programmieren-1/_category_.json
