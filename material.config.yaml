@@ -1,6 +1,27 @@
 pages: []
-29Fd: []
-29Fw: []
+29Fd:
+  - from: docs/Onboarding/
+    as: 01-Onboarding
+    ignore:
+      - _category_.yml
+
+  - from: docs/OF-BYOD-Basics-29/
+    as: 02-BYOD
+    ignore:
+      - _category_.yml
+      - 00-Szenarien.mdx
+
+29Fw:
+  - from: docs/Onboarding/
+    as: 01-Onboarding
+    ignore:
+      - _category_.yml
+
+  - from: docs/OF-BYOD-Basics-29/
+    as: 02-BYOD
+    ignore:
+      - _category_.yml
+      - 00-Szenarien.mdx
 
 30Ga:
   - from: docs/Onboarding/

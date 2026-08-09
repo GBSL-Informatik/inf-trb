@@ -4,4 +4,16 @@ sidebar_label: 29Fw
 page_id: ebc0749b-4b94-4087-956f-2ea22f5b533b
 ---
 
-# 29Fw
+import SemesterTable from '@tdev-components/SemesterTable';
+import { SortTimeTableByDate } from '@tdev/helpers/time';
+import hs2026 from './29Fw-HS2026.yaml';
+
+# 29Fw Informatik
+
+<SemesterTable
+    header={['Datum', 'Thema', 'Inhalt']}
+    compact
+    selectable
+    rows={hs2026}
+    order={SortTimeTableByDate()}
+/>
