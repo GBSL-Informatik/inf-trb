@@ -4,4 +4,30 @@ sidebar_label: 30mU
 page_id: 853108fd-d74b-4295-9599-23c508793371
 ---
 
-# 30mU
+import SemesterTable from '@tdev-components/SemesterTable';
+import { SortTimeTableByDate } from '@tdev/helpers/time';
+import hs2026 from './30Gc-HS2026.yaml';
+import hk2026 from './30Gc-HK-HS2026.yaml';
+
+# 30mU Informatik
+
+<Tabs lazy>
+    <TabItem label="Einzellektion" value="gym1-hs-theorie">
+        <SemesterTable
+            header={['Datum', 'Thema', 'Inhalt']}
+            compact
+            selectable
+            rows={hs2026}
+            order={SortTimeTableByDate()}
+        />
+    </TabItem>
+    <TabItem label="Praktikum" value="gym1-hs-praktikum">
+        <SemesterTable
+            header={['Datum', 'Halbklasse', 'Thema', 'Inhalt']}
+            compact
+            selectable
+            rows={hk2026}
+            order={SortTimeTableByDate()}
+        />
+    </TabItem>
+</Tabs>

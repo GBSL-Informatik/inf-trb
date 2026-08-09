@@ -1,0 +1,139 @@
+- cells:
+  - 11.08.2026
+  - Einstieg
+  - Inf-Webseite, BYOD
+- cells:
+  - 18.08.2026
+  - BYOD Basics
+  - "Ziel: Modul 1 fertig"
+- cells:
+  - 25.08.2026
+  - BYOD Basics
+  - "Ziel: Modul 2 fertig"
+- cells:
+  - 01.09.2026
+  - BYOD Basics
+  - "Ziel: Modul 3+4 fertig"
+- cells:
+  - 08.09.2026
+  - BYOD Basics
+  - "Ziel: Modul 5 fertig"
+- cells:
+  - 15.09.2026
+  - Kennenlernwoche GYM1
+  -
+  type: holiday
+  icon: mdiWalletTravel
+- cells:
+  - 22.09.2026
+  - Herbstferien
+  - 🏝️🏖️🏖️😎
+  type: holiday
+- cells:
+  - 29.09.2026
+  - Herbstferien
+  - 🏝️🏖️🏖️😎
+  type: holiday
+- cells:
+  - 06.10.2026
+  - Herbstferien
+  - 🏝️🏖️🏖️😎
+  type: holiday
+- cells:
+  - 13.10.2026
+  - Test Schriftlich
+  - Kurztest schriftlich zu den BYOD Basics
+  type: test
+- cells:
+  - 20.10.2026
+  - Test Praktisch
+  - Kurztest praktisch zu den BYOD Basics
+  type: test
+  icon: mdiLaptop
+- cells:
+  - 27.10.2026
+  - Test Praktisch
+  - Kurztest praktisch zu den BYOD Basics
+  type: test
+  icon: mdiLaptop
+- cells:
+  - 03.11.2026
+  - Test Praktisch
+  - Kurztest praktisch zu den BYOD Basics / Vorbereitung "Informatik Biber"
+  type: test
+  icon: mdiLaptop
+- cells:
+  - 10.11.2026
+  - Informatik Biber 🦫
+  - Vorbereitung auf den Wettbewerb "Informatik Biber"
+- cells:
+  - 17.11.2026
+  - Informatik Biber 🦫
+  - Wettbewerb
+  type: event
+  icon: mdiKarate
+- cells:
+  - 24.11.2026
+  - Programmieren 1
+  - Übungs- und Fragestunde
+- cells:
+  - 01.12.2026
+  - Programmieren 1
+  - Kurztest Programmieren 1, halbzählend
+  type: test
+- cells:
+  - 08.12.2026
+  - Programmieren 1
+  - Besprechung Kurztest
+- cells:
+  - 15.12.2026
+  - Programmieren 1
+  - Programmieren
+- cells:
+  - 22.12.2026
+  - Programmieren 1
+  - Verzweigungen
+- cells:
+  - 29.12.2026
+  - Winterferien
+  - 🏂❄️⛷️🎄🧑‍🎄
+  type: holiday
+  icon: mdiPineTreeVariantOutline
+- cells:
+  - 05.01.2027
+  - Winterferien
+  - 🏂❄️⛷️🎄🧑‍🎄
+  type: holiday
+  icon: mdiPineTreeVariantOutline
+- cells:
+  - 12.01.2027
+  - Programmieren 1
+  - Wiederholung
+- cells:
+  - 19.01.2027
+  - Programmieren 1
+  - Wiederholung
+- cells:
+  - 20.01.2027
+  - Notenschluss
+  -
+  type: event
+  icon: mdiFlagCheckered
+- cells:
+  - 01.02.2027
+  - Beginn Semester 2
+  -
+  type: event
+  icon: mdiRocketLaunch
+- cells:
+  - 02.02.2027
+  - Programmieren 1
+  - Test - findet in der DL in dieser Woche statt, Wochentag noch nicht bekannt.
+  type: test
+  icon: mdiSchool
+- cells:
+  - 09.02.2027
+  - Sportwoche
+  -
+  type: holiday
+  icon: mdiWeatherSnowyHeavy

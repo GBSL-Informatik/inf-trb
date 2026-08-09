@@ -4,4 +4,30 @@ sidebar_label: 30Gf
 page_id: dc30a384-f3e9-4644-940c-605956c81c89
 ---
 
-# 30Gf
+import SemesterTable from '@tdev-components/SemesterTable';
+import { SortTimeTableByDate } from '@tdev/helpers/time';
+import hs2026 from './30Gf-HS2026.yaml';
+import hk2026 from './30Gf-HK-HS2026.yaml';
+
+# 30Gf Informatik
+
+<Tabs lazy>
+    <TabItem label="Einzellektion" value="gym1-hs-theorie">
+        <SemesterTable
+            header={['Datum', 'Thema', 'Inhalt']}
+            compact
+            selectable
+            rows={hs2026}
+            order={SortTimeTableByDate()}
+        />
+    </TabItem>
+    <TabItem label="Praktikum" value="gym1-hs-praktikum">
+        <SemesterTable
+            header={['Datum', 'Halbklasse', 'Thema', 'Inhalt']}
+            compact
+            selectable
+            rows={hk2026}
+            order={SortTimeTableByDate()}
+        />
+    </TabItem>
+</Tabs>
