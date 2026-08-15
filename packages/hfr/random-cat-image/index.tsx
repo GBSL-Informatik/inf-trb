@@ -19,7 +19,7 @@ const RandomCatImage = observer(({ defaultLabel, label, noReload }: Props) => {
     const [reloadKey, setReloadKey] = React.useState(1);
     const url = React.useMemo(() => {
         if (!userStore.current) {
-            return `https://cataas.com/cat/says/${label ?? defaultLabel ?? 'inf.gbsl.website'}?fontSize=80&fontColor=red&time=${reloadKey}`;
+            return `https://cataas.com/cat/says/${label ?? defaultLabel ?? 'trb.gbsl.website'}?fontSize=80&fontColor=red&time=${reloadKey}`;
         }
         return `https://cataas.com/cat/says/${label ?? userStore.current.name}?fontSize=80&fontColor=red&time=${reloadKey}`;
     }, [userStore.current, label, defaultLabel, reloadKey]);
