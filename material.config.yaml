@@ -37,7 +37,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 02-py-intro
       - 03-repeat
       - 04-errors
       - 05-functions
@@ -71,7 +70,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 02-py-intro
       - 03-repeat
       - 04-errors
       - 05-functions
@@ -105,7 +103,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 02-py-intro
       - 03-repeat
       - 04-errors
       - 05-functions
@@ -139,7 +136,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 02-py-intro
       - 03-repeat
       - 04-errors
       - 05-functions
