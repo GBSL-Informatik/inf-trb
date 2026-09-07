@@ -37,7 +37,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 03-repeat
       - 04-errors
       - 05-functions
       - 06-parameters
@@ -69,7 +68,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 03-repeat
       - 04-errors
       - 05-functions
       - 06-parameters
@@ -101,7 +99,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 03-repeat
       - 04-errors
       - 05-functions
       - 06-parameters
@@ -133,7 +130,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 03-repeat
       - 04-errors
       - 05-functions
       - 06-parameters
