@@ -41,15 +41,13 @@
   type: holiday
 - cells:
   - 13.10.2026
-  - Test Schriftlich
-  - Kurztest schriftlich zu den BYOD Basics
-  type: test
+  - BYOD Basics
+  - Wiederholung
 - cells:
   - 20.10.2026
-  - Test Praktisch
-  - Kurztest praktisch zu den BYOD Basics
+  - BYOD Basics
+  - Schriftliche Prüfung
   type: test
-  icon: mdiLaptop
 - cells:
   - 27.10.2026
   - Test Praktisch
@@ -64,8 +62,10 @@
   icon: mdiLaptop
 - cells:
   - 10.11.2026
-  - Informatik Biber 🦫
-  - Vorbereitung auf den Wettbewerb "Informatik Biber"
+  - Test Praktisch
+  - Kurztest praktisch zu den BYOD Basics
+  type: test
+  icon: mdiLaptop
 - cells:
   - 17.11.2026
   - Informatik Biber 🦫

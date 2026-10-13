@@ -104,7 +104,8 @@
 - cells:
     - 16.10.2026
     - BYOD Basics
-    - Wiederholung
+    - Lerncheck
+  type: test
 
 - cells:
     - 20.10.2026
@@ -115,19 +116,18 @@
 - cells:
     - 23.10.2026
     - BYOD Basics
-    - Wiederholung
-
-- cells:
-    - 27.10.2026
-    - BYOD Basics
     - Lerncheck
   type: test
 
 - cells:
+    - 27.10.2026
+    - Programmieren
+    - Algorithmen
+
+- cells:
     - 30.10.2026
-    - BYOD Basics
-    - Lerncheck
-  type: test 
+    - Programmieren
+    - Algorithmen
 
 - cells:
     - 3.11.2026
