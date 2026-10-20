@@ -9,6 +9,27 @@ pages: []
     as: 02-BYOD
     ignore:
       - _category_.yml
+  - from: docs/OF-Programmieren-1/
+    as: 03-Programmieren-1
+    ignore:
+      - _category_.yml
+      - index.mdx
+      - 02-py-intro
+      - 03-repeat
+      - 04-errors
+      - 05-functions
+      - 06-parameters
+      - 07-Variablen
+      - 08-Verzweigungen
+      - 09-While
+      - 10-Rueckgabewerte
+      - 12-rekursion
+      - 16-modulo
+      - 15-Gruefnisch
+      - 21-mistakes.mdx
+      - 30-Repefragen
+      - 50-Test
+      - 51-Tests.mdx
 
 29Fw:
   - from: docs/Onboarding/
@@ -20,6 +41,28 @@ pages: []
     as: 02-BYOD
     ignore:
       - _category_.yml
+
+  - from: docs/OF-Programmieren-1/
+    as: 03-Programmieren-1
+    ignore:
+      - _category_.yml
+      - index.mdx
+      - 02-py-intro
+      - 03-repeat
+      - 04-errors
+      - 05-functions
+      - 06-parameters
+      - 07-Variablen
+      - 08-Verzweigungen
+      - 09-While
+      - 10-Rueckgabewerte
+      - 12-rekursion
+      - 16-modulo
+      - 15-Gruefnisch
+      - 21-mistakes.mdx
+      - 30-Repefragen
+      - 50-Test
+      - 51-Tests.mdx
 
 30Ga:
   - from: docs/Onboarding/
@@ -37,7 +80,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 04-errors
       - 05-functions
       - 06-parameters
       - 07-Variablen
@@ -68,7 +110,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 04-errors
       - 05-functions
       - 06-parameters
       - 07-Variablen
@@ -99,7 +140,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 04-errors
       - 05-functions
       - 06-parameters
       - 07-Variablen
@@ -130,7 +170,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 04-errors
       - 05-functions
       - 06-parameters
       - 07-Variablen
