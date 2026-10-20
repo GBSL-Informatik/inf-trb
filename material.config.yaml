@@ -80,7 +80,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 05-functions
       - 06-parameters
       - 07-Variablen
       - 08-Verzweigungen
@@ -110,7 +109,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 05-functions
       - 06-parameters
       - 07-Variablen
       - 08-Verzweigungen
@@ -140,7 +138,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 05-functions
       - 06-parameters
       - 07-Variablen
       - 08-Verzweigungen
@@ -170,7 +167,6 @@ pages: []
     ignore:
       - _category_.yml
       - index.mdx
-      - 05-functions
       - 06-parameters
       - 07-Variablen
       - 08-Verzweigungen
