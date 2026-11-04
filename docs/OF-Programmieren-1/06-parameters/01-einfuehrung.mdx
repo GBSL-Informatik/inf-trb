@@ -1,0 +1,29 @@
+---
+page_id: 8cc81a3b-95c9-458b-ac89-5e067d1d6f8d
+sidebar_label: Gemeinsam programmieren
+---
+
+# Konfigurierbare treppe()
+
+Diese Seite wird für das Praktikum genutzt. Wir passen gemeinsam das Unterprogramm __treppe()__ an und machen dieses konfigurierbar.
+
+:::aufgabe[Welche Eigenschaften der Treppe wollen wir konfigurierbar machen?]
+:::
+
+<br />
+
+```py live_py title=treppe.py
+from turtle import *
+
+speed(10)
+penup()
+goto(-200,-200)
+pendown()
+
+def treppe():
+    for i in range(30):
+        left(90)
+        forward(20)
+        right(90)
+        forward(30)
+```
