@@ -1,0 +1,56 @@
+---
+page_id: b671f7a4-3baf-403e-8aad-8d71ddd70637
+sidebar_label: Tiertest
+---
+
+# Faultier, Fuchs oder Kolibri?
+:::info[Beantworten Sie die Fragen mit:]
+1 = selten
+2 = manchmal
+3 = oft
+:::
+
+<br />
+
+```py live_py title=ausgangslage.py slim
+name = input("Wie heisst du? ")
+punkte = 0
+
+antwort = int(input("Unternimmst du nach der Schule gerne etwas? "))
+punkte = punkte + antwort
+
+antwort = int(input("Bist du gerne draussen? "))
+punkte = punkte + antwort
+
+antwort = int(input("Probierst du gerne neue Hobbys aus? "))
+punkte = punkte + antwort
+
+antwort = int(input("Magst du spontane Ausflüge? "))
+punkte = punkte + antwort
+
+antwort = int(input("Erkundest du gerne neue Orte? "))
+punkte = punkte + antwort
+
+antwort = int(input("Magst du actionreiche Aktivitäten? "))
+punkte = punkte + antwort
+
+antwort = int(input("Magst du Tage voller Überraschungen? "))
+punkte = punkte + antwort
+
+antwort = int(input("Erlebst du in den Ferien gerne Neues? "))
+punkte = punkte + antwort
+
+print()
+print(name, "du hast", punkte, "Punkte!")
+print("Lies deinen Tiertyp anhand deiner Punkte ab:")
+print()
+
+print("0-9 Punkte: Faultier")
+print("10-11 Punkte: Koala")
+print("12-13 Punkte: Panda")
+print("14-15 Punkte: Katze")
+print("16-17 Punkte: Fuchs")
+print("18-19 Punkte: Otter")
+print("20-21 Punkte: Affe")
+print("22-24 Punkte: Kolibri")
+```
