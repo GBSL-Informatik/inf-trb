@@ -39,7 +39,8 @@ const getSiteConfig: SiteConfigProvider = () => {
             loginProfileButton
         ],
         showEditThisPage: 'teachers',
-        showEditThisPageOptions: ['github', 'github-dev'],
+        showEditThisPageOptions: ['github', 'github-dev', 'cms'],
+        editThisPageCmsUrl: 'https://teaching-dev.gbsl.website/cms',
         tdevConfig: {
             taskStateOverview: {
                 hideTeachers: true
