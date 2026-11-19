@@ -8,108 +8,68 @@ import WithCmsText from '@tdev-components/documents/CmsText/WithCmsText';
 import CmsLink from '@tdev-components/documents/CmsText/Link';
 import Loader from '@tdev-components/Loader';
 
-# Programmieren 1
+# Programmieren 1 - Erste Prüfung
+
+:::info[Prüfung]
+Die gesamte Prüfung findet auf Papier statt. Auch Code werden Sie mit einem Stift auf Papier schreiben.
+Hilfsmittel sind nicht erlaubt und bei einem Betrugsversuche erhalten Sie für die ganze Prüfung 0 Punkte.
+
+Note :mdi[certificate]{.blue}
+: $0.5$
+**Zeit**:mdi[timer]{.blue}
+: $40 Minuten$
+**Hilfsmittel**:mdi[tools]{.blue}
+: $Keine$
+**Modus**:mdi[paperclip]{.blue}
+: $Schriftlich$
+
+Die Prüfung orientiert sich an den untenstehenden Lernzielen. Sie kann auch weitere Inhalte beinhalten, die wir im Unterricht bearbeitet haben oder die auf der Unterrichtsseite unter «Programmieren 1» bis und mit Kapitel „Parameter“ behandelt wurden.
+:::
 
 ## Lernziele
-
-Die Prüfung besteht aus zwei Teilen:
-Theorie
-: schriftlicher Teil auf Papier
-: keine Hilfsmittel erlaubt.
-Praxis
-: praktischer Teil auf dem Laptop
-: Alle Inhalte der Webseite, inkl. persönlicher Notizen\*, sind erlaubt.
-::::dd
-:::warning[Wichtig]
-Der praktische Teil findet auf dem eigenen Laptop, im [Safe-Exam-Browser](https://safeexambrowser.org) über [exam.net](https://exam.net/de/) statt. Sie sind verantwortlich, dass Ihr Gerät korrekt konfiguriert, eingerichtet und funktionstüchtig ist.
-:::
-::::
-
-\* <small>Notizen auf der Webseite oder handgeschrieben/ausgedruckt - aufgrund der Prüfungsumgebung sind digitale Dokumente/Word/OneNote während der Prüfung nicht verfügbar.</small>
-
-:::danger[Nutzung unerlaubter Hilfsmittel]
-Wird ein Kommunikationsversuch oder die Nutzung von unerlaubter Hilfsmittel (bspw. KI-Chats festgestellt), wird der gesamte Prüfungsteil mit 0 Punkten bewertet. 
-:::
 
 ## Relevante Kapitel
-1. Einführung in Python
-2. Wiederholungen (mit `for`-Schleifen)
-3. Fehler
-4. Unterprogramme
-5. Parameter
-6. Variablen + Ein- und Ausgabe
-7. Bedingte Anweisungen
-8. While-Schleifen
-9. Rückgabewerte
-10. Anwendungsaufgaben
-    - Grüfnisch (Textverarbeitung)
-    - Teilbarkeit von Zahlen (Modulo)
+
+1. Algorithmen
+2. Einführung in Python
+3. Wiederholungen (mit `for`-Schleifen)
+4. Fehler
+5. Unterprogramme
+6. Parameter
 
 :::tip[Begrifflichkeiten]
-Die Begrifflichkeiten aus dem Kapitel "Algorithmen" werden vorausgesetzt um bspw. Aufgabenstellungen zu verstehen und präzise zu antworten.
-::: 
+Die Begrifflichkeiten aus den Kapiteln werden vorausgesetzt um bspw. Aufgabenstellungen zu verstehen und präzise zu antworten.
+:::
 
 ## Lernziele
 
-:::info[Lernziele Aufgaben]
-Lösen und Bearbeiten aller Aufgaben der Kapitel 1-9 und der Anwendungsaufgaben, die nicht mit einem ⭐ markiert sind.
+:::info[Begriffe Erklären]
+1. Sie können die Begriffe **Algorithmus**, **Syntax** und **Semantik** in eigenen Worten erklären.
 :::
 
-:::info[Lernziele Programme]
-- Ausgaben eines einfachen Turtle-Programms zeichnen.
-- Python-Programm lesen und verstehen und deren Ausgabe vorhersagen.
-- Python-Programme nach Vorgaben ändern oder erweitern.
-- Typische Fehler in Python-Programmen erkennen und korrigieren.
-- Erkennen und Anwenden von *Befehlsnamen*, *Variablen*, *Parametern* und *Laufvariablen* in Programmen.
-- Erkennen der Bedeutung eines gegebenen Programms.
-- Bei bedingten Ausführungen den Programmablauf korrekt nachvollziehen.
-- Nachvollziehen von Programmabläufen mit Wiederholungen (`for`- und `while`-Schleifen, inkl. verfrühtes Abbrechen mit `break`).
-- Rückgabewerte von Unterprogrammen korrekt auswerten und verwenden.
+:::info[**Turtle-Befehle kennen und anwenden**]
+1. Sie kennen die **Startposition und Blickrichtung der Turtle** zu Beginn eines Programms.
+2. Sie kennen folgenden Befehlen und können diese für eigenen Code verwenden:
+   1.  „forward“, „backward“, „left“, „right“ und „goto“
+   2. „penup“, „pendown“, „pencolor“, „pensize“, „dot“ und „hideturtle“
+   3. ”fillcolor“, „begin_fill“ und „end_fill“
 :::
 
-:::info[Lernziele Programmstuktur]
-- Befehle aus Bibliotheken importieren (`import` bspw. für die `math` oder `random` Bibliothek).
-- Anwendung der `for`-Schleifen inkl. von Laufvariablen, um Programmsequenzen zu wiederholen.
-- Anwendung der `while`-Schleife  inkl. von Laufvariablen, um Programmsequenzen zu wiederholen, bis eine Bedingung erfüllt ist.
-- Übersetzung von `for`-Schleifen in `while`-Schleifen und umgekehrt.
-- Anwendung von bedingten Anweisungen (`if`, `elif`, `else`).
-- **Unterprogramme/Funktionen** mit Parametern und Rückgabewerten selber schreiben und verwenden.
-- Programme unter Verwendung von **Unterprogrammen** strukturieren und vereinfachen.
-- Vereinfachung von gegebenen Programmen (bspw. durch die Verwendung von Unterprogrammen, Wiederholungen oder Bedingungen), ohne dass sich die Ausgabe ändert.
-- Programme im Code kommentieren (`#`-Symbol).
-- Variablen anwenden und verstehen.
-- Übersetzen von Struktogrammen zu funktionierendem Python-Code.
-- Lösen (einfacher) Aufgaben durch schreiben eigener Programme.
+:::info[**Programmstrukturen anwenden**]
+1. Sie können Befehle (Unterprogramme) aus random und turtle importieren.
+2. Sie können mit randint(a, b) eine zufällige ganze Zahl erzeugen und in einem Programm verwenden.
+3. Sie können eine Folge von Anweisungen mit einer for-Schleife eine beliebig viele male wiederholen.
+4. Sie können in einem Python-Programm die **Definition**, den **Aufruf** und die **Parameter** eines Unterprogramms kennzeichnen.
+5. Sie können Unterprogramme mit oder ohne Parameter definieren und aufrufen.
+6. Sie können bei einem Unterprogrammaufruf die übergebenen Werte den einzelnen Parametern zuordnen und erklären, wie sich eine Änderung dieser Werte auf das Ergebnis auswirkt.
+7. Sie können Python-Code lesen und anhand des Codes vorhersagen, welche Ausgabe oder Turtle-Zeichnung entstehen wird.
+8. Sie können ein gegebenes Programm mithilfe von Schleifen, Unterprogrammen oder Parametern vereinfachen vereinfach. Das Resultat muss dasselbe bleiben.
+9. Sie können für eine neue Zeichenaufgabe ein eigenes Turtle-Programm entwerfen und umsetzen. Sie entscheiden selbst, wo Sie for-Schleifen einsetzen, welche Schritte Sie in Unterprogrammen zusammenfassen und welche Werte Sie über Parameter verändern.
+10. Sie können mit # einen Kommentar einfügen, um den Zweck eines Codeabschnitts zu erklären.
 :::
 
-:::info[Lernziele Turtlegrafik]
-- Sie können die Turtle mit `forward`, `backward`, `left`, `right` und `goto` bewegen.
-- Sie können mit `pencolor` die Farbe ändern.
-- Sie können mit `fillcolor`, `begin_fill` und `end_fill` ausgefüllte Figuren zeichnen.
-- Sie können mit `shape` und `speed` das Aussehen und die Geschwindigkeit der Turtle ändern.
-- Sie können mit `pensize`, `penup` und `pendown`, `dot`, `hideturtle` den Zeichenstift kontrollieren.
-- Zeichnen von Kreisen, Vier-, Fünf-, `n`-Ecken und Sternen.
-:::
-
-:::info[Lernziele Benutzerinteraktion]
-- Sie können die Programmbenutzer:in mit `input` nach einer Eingabe fragen.
-- Sie wissen, dass Python zwischen Text (`str`), ganzen Zahlen (`int`) und Dezimalzahlen (`float`) unterscheidet und können Text in Zahlen/Dezimalzahlen umwandeln.
-- Sie können Platzhalter in formatierten Texten `f''` einfügen (`f'Hallo {name}'`).
-- Sie können Texte klein- oder grossschreiben (`lower()`, `upper()`) sowie Wortteile ersetzen (`replace`).
-:::
-
-:::info[Operatoren und Berechnungen]
-- Sie verstehen die Grundrechenarten (`+`, `-`, `*`, `/`, `%`, `**`) und können diese anwenden.
-- Sie wissen, wie man überprüft, ob zwei Zahlen teilbar sind (Modulo `%`).
-- Sie kennen die Rangfolge der Operatoren und können Klammern zur Steuerung der Berechnungsreihenfolge verwenden.
-- Sie können mathematische Funktionen aus der `math`-Bibliothek verwenden (z.B. `sqrt`, `round`, `ceil`, `floor`).
-- Sie können Zufallszahlen mit der `random`-Bibliothek generieren (`randint`).
-- Sie können Vergleichsoperatoren (`==`, `!=`, `<`, `>`, `<=`, `>=`) verwenden, um Werte zu vergleichen.
-- Sie können logische Operatoren (`and`, `or`, `not`) verwenden, um mehrere Bedingungen miteinander zu verknüpfen, beispiel:
-    ```py live_py slim
-    alter = input('wie alt bist du?')
-    alter = int(alter)
-    if alter >= 10 and alter < 14:
-       print('Du bist zwischen 10 und 14 Jahren, aber dein 14. Geburtstag hattest du noch nicht')
-    ```
+:::info[**Fehler identifizieren und beheben**]
+1. Sie erkennen in einem Python-Programm Fehler und wissen, wie diese zu beheben sind.&#x20;
+2. Sie können anhand einer Fehlermeldung folgende Fragen beantworten: \
+   Was ist der Fehler? Wo ist der Fehler? Wie können Sie den Fehler beheben?
 :::
