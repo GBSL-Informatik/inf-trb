@@ -79,12 +79,12 @@
 - cells:
   - 01.12.2026
   - Programmieren 1
-  - Kurztest Programmieren 1, halbzählend
-  type: test
+  - Übungs- und Fragestunde
 - cells:
   - 08.12.2026
   - Programmieren 1
   - Besprechung Kurztest
+  type: test
 - cells:
   - 15.12.2026
   - Programmieren 1
