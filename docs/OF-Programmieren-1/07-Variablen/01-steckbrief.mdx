@@ -1,0 +1,47 @@
+---
+page_id: f4f9662c-9763-4252-8213-357219d4f6cf
+sidebar_label: Steckbrief
+---
+
+# Erstellen Sie einen Steckbrief
+:::info[Beantworten Sie die Fragen mit:]
+Beantworten Sie die Fragen, um einen Steckbrief zu erstellen.
+:::
+
+<br />
+
+```py live_py title=ausgangslage.py slim
+vorname=input("Wie ist dein Vorname?")
+nachname=input("Wie ist dein Nachname?")
+geburtstag=input("Wann hast du Geburtstag")
+wohnort=input("Wo wohnst du? [Dorf]")
+schule=input("Auf welche Schule gehst du? ")
+
+hobbys=input("Welche Hobbys hast du [3 Hobbys]")
+berufswunsch=input("Was möchtest du für einen Beruf erlernen? [oder studieren]")
+stärken=input("Was sind deine Stärken? [3 Stärken]")
+
+lieblingstier=input("Was ist dein Lieblingstier?")
+lieblingsfächer=input("Welche 3 Schulfächer hast du am liebsten?")
+lieblingsessen=input("Was isst du am liebsten?")
+
+print("Steckbrief von", vorname, nachname)
+print("\n\n")
+print("Ganzer Name:","\t",vorname, nachname)
+print("Geburtstag:","\t",geburtstag)
+print("Wohnort:","\t",wohnort)
+print("Schule:","\t",schule)
+print("\n\n")
+
+print("Hobbys:","\t",hobbys)
+print("Berufswunsch:","\t",berufswunsch)
+print("Stärken:","\t",stärken)
+print("\n\n")
+
+print("Lieblingstier:","\t\t",lieblingstier)
+print("Lieblingsfächer:","\t",lieblingsfächer)
+print("Lieblingsessen:","\t",lieblingsessen)
+print("\n\n\n")
+
+print("Danke, dass du dir Zeit genommen hast und dir einen Steckbrief erstellt hast!")
+```

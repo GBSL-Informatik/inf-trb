@@ -79,6 +79,7 @@ pages: []
     as: 03-Programmieren-1
     ignore:
       - _category_.yml
+      - 07-Variablen/01-steckbrief.mdx
       - 08-Verzweigungen
       - 09-While
       - 10-Rueckgabewerte
@@ -105,6 +106,7 @@ pages: []
     as: 03-Programmieren-1
     ignore:
       - _category_.yml
+      - 07-Variablen/01-steckbrief.mdx
       - 08-Verzweigungen
       - 09-While
       - 10-Rueckgabewerte
@@ -131,6 +133,7 @@ pages: []
     as: 03-Programmieren-1
     ignore:
       - _category_.yml
+      - 07-Variablen/01-steckbrief.mdx
       - 08-Verzweigungen
       - 09-While
       - 10-Rueckgabewerte
@@ -157,6 +160,7 @@ pages: []
     as: 03-Programmieren-1
     ignore:
       - _category_.yml
+      - 07-Variablen/01-steckbrief.mdx
       - 08-Verzweigungen
       - 09-While
       - 10-Rueckgabewerte
