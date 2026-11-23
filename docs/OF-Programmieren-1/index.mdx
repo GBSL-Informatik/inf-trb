@@ -73,3 +73,209 @@ Die Begrifflichkeiten aus den Kapiteln werden vorausgesetzt um bspw. Aufgabenste
 2. Sie können anhand einer Fehlermeldung folgende Fragen beantworten: \
    Was ist der Fehler? Wo ist der Fehler? Wie können Sie den Fehler beheben?
 :::
+
+## Übungsaufgaben - Testen Sie Ihr Wissen
+
+:::danger
+In der Prüfung schreiben Sie Ihren Code mit einem Stift auf ein Blatt Papier. Deshalb empfehle ich Ihnen für die kommenden Aufgaben:
+
+- Schreiben Sie Ihren Code zuerst auf ein Blatt Papier
+- Übertragen Sie Ihren Code anschliessend in den Editor und testen Sie:
+  - Dass das Programm ausgeführt werden kann
+  - Dass das Programm korrekt ist -> z.B. dass die gewünschte Zeichnung genau so umgesetzt ist.
+:::
+
+::::aufgabe[Aufgabe 1 - Treppe ohne Wiederholung]
+Zeichnen Sie eine Treppe mit 3 Stufen.
+
+- Verwenden Sie keine Wiederholung.
+
+```py live_py slim
+```
+
+:::details[Lösung]
+```py live_py slim
+from turtle import *
+
+forward(50)
+left(90)
+forward(50)
+right(90)
+forward(50)
+left(90)
+forward(50)
+right(90)
+forward(50)
+left(90)
+forward(50)
+right(90)
+```
+:::
+::::
+
+::::aufgabe[Aufgabe 2 - Treppe mit Wiederholung]
+Zeichnen Sie eine Treppe mit 10 Stufen.
+
+- Zeichnen Sie die Treppe in einer Wiederholung:
+  - forward() dürfen Sie maximal 2x verwenden
+  - left() und right() dürfen Sie maximal 1x verwenden
+- Beginnen Sie bei der Koordinate (-200,-200)
+- Es darf nur die Treppe sichtbar sein.
+
+```py live_py slim
+```
+
+:::details[Lösung]
+```py live_py slim
+from turtle import *
+
+penup()
+goto(-200, -200)
+pendown()
+for i in range(10):
+    forward(50)
+    left(90)
+    forward(50)
+    right(90)
+```
+:::
+::::
+
+::::aufgabe[Aufgabe 3 - Treppe als Unterprogramm mit 3 Parametern]
+Definieren Sie das Unterprogramm treppe().
+
+- Das Unterprogramm hat 3 Parameter:
+  - anzahlStufen -> bestimmt, wie viele Stufen gezeichnet werden
+  - hoehe -> bestimmt, wie hoch die einzelnen Stufen sind
+  - breite -> bestimmt, wie breit die einzelnen Stufen sind
+- Das Unterprogramm treppe() zeichnet die Treppe in einer Wiederholung:
+  - forward() dürfen Sie maximal 2x verwenden
+  - left() und right() dürfen Sie maximal 1x verwenden
+- Beginnen Sie bei der Koordinate (-200,-200)
+- Es darf nur die Treppe sichtbar sein.
+- Sie rufen die Treppe am Ende zweimal auf. Nutzen Sie dazu jeweils unterschiedliche Werte, die Sie für die Parameter verwenden.
+
+```py live_py slim
+```
+
+:::details[Lösung]
+```py live_py slim
+from turtle import *
+
+penup()
+goto(-200, -200)
+pendown()
+
+def treppe(anzahlStufen, hoehe, breite):
+    for i in range(anzahlStufen):
+        forward(breite)
+        left(90)
+        forward(hoehe)
+        right(90)
+
+treppe(6, 10, 10)
+treppe(6, 80, 80)
+```
+:::
+::::
+
+::::aufgabe[Aufgabe 4 - Strich der breiter wird]
+Zeichnen Sie einen Strich mit folgenden Eigenschaften:
+
+- Der Strich ist in der Farbe "Rot" gezeichnet
+- Der Strich wird nach 10 Pixel immer etwas dicker
+  - Der Strich hat eine Gesamtlänge von 120 Pixel
+- Der Strich ist in einer Wiederholung umgesetzt:
+  - "i" wird verwendet, um den Strich bei jedem Durchgang der Wiederholung breiter zu machen
+  - forward() kommt genau 1x vor im ganzen Programm
+- Am Ende wird die Turtle nicht mehr angezeigt.
+
+```py live_py slim
+```
+
+:::details[Lösung]
+```py live_py slim
+from turtle import *
+
+for i in range(12)
+    pensize(i*1+1)
+    forward(10)
+```
+:::
+::::
+
+::::aufgabe[Aufgabe 5 - Fehler 1/2]
+- Welche Fehler finden Sie in folgendem Programm?
+- Was würde das Programm zeichnen, wenn alle Fehler beseitigt sind?
+
+```py live_py slim
+pencolor('blau')
+pensize(2)
+pen up()
+ shape('turtle')
+
+goto(-100-100)
+for a in range(10)
+    Forward(a)
+```
+
+:::details[Lösung]
+```py live_py slim
+from turtle import * #Import der Turtle-Funktionalität hat gefehlt
+
+pencolor('blue') # blue anstelle von blau
+pensize(2)
+penup() # penup() muss zusammengeschrieben werden
+shape('turtle') # Unerwarteter Abstand. Shape muss am Anfang der Zeile stehen
+
+goto(-100, -100) # Komma zur Trennung der Werte die den Parametern übergeben werden
+for a in range(10)
+    forward(a) # Namensfehler, forward() muss klein geschrieben werden.
+
+# Zur Überprüfung der Ausgabe: Führen Sie das Programm aus :)
+```
+:::
+::::
+
+::::aufgabe[Aufgabe 6 - Fehler 2/2]
+Prüfen Sie folgende Fehlermeldung und beantworten Sie folgende Fragen:
+
+- Was ist der Fehler?
+- Wo ist der Fehler?
+- Wie können Sie den Fehler beheben?
+
+Traceback (most recent call last):
+
+&#x20; File "30Ga/Programmieren-1/errors/#python_script_229401886001044", line -5, in \<module>
+
+&#x20;   run("""from turtle import \*
+
+&#x20; File "https\://trb.gbsl.website/bry-libs/brython_runner.py", line 44, in run
+
+&#x20;   exec(py_script, ns)
+
+&#x20; File "error3.py", line 2
+
+&#x20;   for i in range(4)
+
+&#x20;                    ^
+
+SyntaxError: expected ':'
+
+:::details[Lösung]
+```py live_py slim
+for i in range(4) # => for i in range(4):
+```
+:::
+::::
+
+:::aufgabe[Aufgabe 7 - Was wird gezeichnet?]
+```py live_py slim
+from turtle import *
+
+for i in range(18):
+    forward(40)
+    dot(15)
+    left(360/18)
+```
+:::
