@@ -30,6 +30,8 @@ pages: []
       - 30-Repefragen
       - 50-Test
       - 51-Tests.mdx
+  - from: docs/Textverarbeitung/
+    as: 04-Textverarbeitung    
 
 29Fw:
   - from: docs/Onboarding/
@@ -63,6 +65,8 @@ pages: []
       - 30-Repefragen
       - 50-Test
       - 51-Tests.mdx
+  - from: docs/Textverarbeitung/
+    as: 04-Textverarbeitung   
 
 30Ga:
   - from: docs/Onboarding/
