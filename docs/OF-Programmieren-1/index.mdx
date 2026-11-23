@@ -227,9 +227,9 @@ pencolor('blue') # blue anstelle von blau
 pensize(2)
 penup() # penup() muss zusammengeschrieben werden
 shape('turtle') # Unerwarteter Abstand. Shape muss am Anfang der Zeile stehen
-pendown() #pendown() hat gefehlt, damit wieder gezeichnet wird
 goto(-100, -100) # Komma zur Trennung der Werte die den Parametern übergeben werden
-for a in range(100):
+pendown() #pendown() hat gefehlt, damit wieder gezeichnet wird
+for a in range(25):
     forward(a) # Namensfehler, forward() muss klein geschrieben werden.
 
 # Zur Überprüfung der Ausgabe: Führen Sie das Programm aus :)
@@ -264,7 +264,7 @@ SyntaxError: expected ':'
 
 :::details[Lösung]
 ```py live_py slim
-for i in range(4)
+for i in range(4):
 # SyntaxError: Es fehlt das Komma nach der Klammer bei for i in range()
 # Wo ist der Fehler: Auf Zeile 2
 # Doppelpunkt hinzufügen
@@ -273,6 +273,8 @@ for i in range(4)
 ::::
 
 :::aufgabe[Aufgabe 7 - Was wird gezeichnet?]
+Überlegen Sie sich, was hier gezeichnet wird. Prüfen Sie es anschliessend durch das Ausführen des Programms :)
+
 ```py live_py slim
 from turtle import *
 
