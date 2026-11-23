@@ -133,9 +133,9 @@ penup()
 goto(-200, -200)
 pendown()
 for i in range(10):
-    forward(50)
+    forward(30)
     left(90)
-    forward(50)
+    forward(30)
     right(90)
 ```
 :::
@@ -173,8 +173,8 @@ def treppe(anzahlStufen, hoehe, breite):
         forward(hoehe)
         right(90)
 
-treppe(6, 10, 10)
-treppe(6, 80, 80)
+treppe(5, 10, 10)
+treppe(5, 80, 80)
 ```
 :::
 ::::
@@ -197,7 +197,7 @@ Zeichnen Sie einen Strich mit folgenden Eigenschaften:
 ```py live_py slim
 from turtle import *
 
-for i in range(12)
+for i in range(12):
     pensize(i*1+1)
     forward(10)
 ```
@@ -227,9 +227,9 @@ pencolor('blue') # blue anstelle von blau
 pensize(2)
 penup() # penup() muss zusammengeschrieben werden
 shape('turtle') # Unerwarteter Abstand. Shape muss am Anfang der Zeile stehen
-
+pendown() #pendown() hat gefehlt, damit wieder gezeichnet wird
 goto(-100, -100) # Komma zur Trennung der Werte die den Parametern übergeben werden
-for a in range(10)
+for a in range(100):
     forward(a) # Namensfehler, forward() muss klein geschrieben werden.
 
 # Zur Überprüfung der Ausgabe: Führen Sie das Programm aus :)
@@ -264,7 +264,10 @@ SyntaxError: expected ':'
 
 :::details[Lösung]
 ```py live_py slim
-for i in range(4) # => for i in range(4):
+for i in range(4)
+# SyntaxError: Es fehlt das Komma nach der Klammer bei for i in range()
+# Wo ist der Fehler: Auf Zeile 2
+# Doppelpunkt hinzufügen
 ```
 :::
 ::::
