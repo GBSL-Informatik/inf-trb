@@ -197,8 +197,10 @@ Zeichnen Sie einen Strich mit folgenden Eigenschaften:
 ```py live_py slim
 from turtle import *
 
+pencolor('red')
 for i in range(12):
-    pensize(i*1+1)
+    pensize(i*1 + 1) # im ersten Durchlauf ist i = 0. Dadurch wird pensize(0) ausgeführt. pensitze(0) entspricht pensize(1).
+                     # Deshalb muss +1 gerechnet werden, damit im ersten Durchlauf pensize(1) im zweiten Durchlauf pensize(2) usw. aufgerufen wird.
     forward(10)
 ```
 :::
